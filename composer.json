@@ -27,7 +27,7 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"MikSoftware\\DaemonBundle\\" : ""
+			"MikSoftware\\DaemonBundle" : ""
 		}
 	},
 	"target-dir" : "MikSoftware/DaemonBundle",
