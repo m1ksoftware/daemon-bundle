@@ -37,7 +37,7 @@ Installation
     }
     ```
 
- 3. Configure the bundle by adding parameters to the  `config.yml` file:
+ 3. Configure the bundle by adding parameters to the  `config.yml` or `parameters.yml` file:
 
     ```yaml
     # app/config/config.yml
