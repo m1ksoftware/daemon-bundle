@@ -65,7 +65,6 @@ Usage
     {
         protected function configureDaemonCommand()
         {
-            $this->addMethods(array('status', 'pid'));        
             $this
                 ->setName('<name>')
                 ->setDescription('<description>')
@@ -92,3 +91,29 @@ Usage
     mik@mbp:~$ php app/console <name> stop
     mik@mbp:~$ php app/console <name> restart
     ```
+
+The methods `start`, `stop` and `restart` will be automatically added to your command. It is possible to add new methods to your command as follow:
+  
+    ```php
+    <?php
+        ....
+        class <Name>Command extends DaemonizedCommand
+        {
+            protected function configureDaemonCommand()
+            {
+                $this->addMethods(array('status'));        
+                $this
+                    ->setName('<name>')
+                    ->setDescription('<description>')
+                    ->setHelp('Usage <info>php app/console <name> start|stop|restart</info>');
+            }
+            
+            ...
+            
+            protected function status()
+            {
+                // TODO: implement the new method
+            }
+        }
+    ```
+            
