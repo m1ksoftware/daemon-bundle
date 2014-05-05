@@ -29,7 +29,6 @@
 		"psr-0" : {
 			"MikSoftware\\DaemonBundle" : ""
 		}
-	},
-	"target-dir" : "MikSoftware/DaemonBundle",
+	},	
 	"minimum-stability" : "dev"
 }
