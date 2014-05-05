@@ -1,0 +1,4 @@
+
+services:
+    mik_software.daemon_service:
+        class: MikSoftware\DaemonBundle\Services\DaemonService
