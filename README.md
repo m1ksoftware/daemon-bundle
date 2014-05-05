@@ -1,6 +1,9 @@
 DaemonBundle
 ============
 [![PayPayl donate button](http://img.shields.io/paypal/donate.png?color=green)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NFQGD52UP2RLA "Donate once-off to this project using Paypal")
+[![Latest Stable Version](https://poser.pugx.org/miksoftware/daemon-bundle/v/stable.png)](https://packagist.org/packages/miksoftware/daemon-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/miksoftware/daemon-bundle/v/unstable.png)](https://packagist.org/packages/miksoftware/daemon-bundle)
+[![License](https://poser.pugx.org/miksoftware/daemon-bundle/license.png)](https://packagist.org/packages/miksoftware/daemon-bundle)
 
 DeamonBundle allows to easily convert your Symfony2 console scripts into system daemons. To use DaemonBundle `pcntl` is required to be configured in your PHP binary.
 
@@ -37,7 +40,7 @@ Installation
     }
     ```
 
- 3. Configure the bundle by adding parameters to the  `config.yml` file:
+ 3. Configure the bundle by adding parameters to the  `config.yml` or `parameters.yml` file:
 
     ```yaml
     # app/config/config.yml
