@@ -185,7 +185,7 @@ class Daemon
      * @see start()
      * @see stop()
      */
-    protected function iterate($sleepSeconds = 0)
+    public function iterate($sleepSeconds = 0)
     {        
         $this->optionObjSetup();
         if ($sleepSeconds >= 1) {
