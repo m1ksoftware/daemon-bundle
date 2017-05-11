@@ -357,7 +357,7 @@ class Definitions
         'SIGUSR1'       => array('self', 'defaultSigHandler'),
         'SIGSEGV'       => array('self', 'defaultSigHandler'),
         'SIGUSR2'       => array('self', 'defaultSigHandler'),
-        'SIGPIPE'       => 'SIG_IGN',
+        'SIGPIPE'       => array('self', 'defaultSigHandler'),
         'SIGALRM'       => array('self', 'defaultSigHandler'),
         'SIGTERM'       => array('self', 'defaultSigHandler'),
         'SIGSTKFLT'     => array('self', 'defaultSigHandler'),
